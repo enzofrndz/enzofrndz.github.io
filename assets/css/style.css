@@ -31,25 +31,6 @@ html{
     scroll-behavior: smooth;
 }
 
-/* ----- CHANGE THE SCROLL BAR DESIGN ----- */
-::-webkit-scrollbar{
-    width: 10px;
-    border-radius: 25px;
-}
-::-webkit-scrollbar-track{
-    background: #f1f1f1;
-}
-::-webkit-scrollbar-thumb{
-    background: #ccc;
-    border-radius: 30px;
-}
-::-webkit-scrollbar-thumb:hover{
-    background: #bbb;
-}
-
-
-/* ---##-- REUSABLE CSS --##--- */
-
 /* ----- GLOBAL BUTTON DESIGN ----- */
 .btn{
     font-weight: 500;
@@ -68,19 +49,6 @@ html{
     color: var(--color-white);
 }
 
-/* ----- GLOBAL ICONS DESIGN ----- */
-i{
-    font-size: 16px;
-}
-
-/* ------- BASE -------- */
-body{
-    background: var(--body-color);
-}
-.container{
-    width: 100%;
-    position: relative;
-}
 
 /* ----- NAVIGATION BAR ----- */
 nav{
@@ -351,14 +319,14 @@ h3{
 }
 
 /* ----- PROJECTS BOX ----- */
-.project-container{
+.project-container {
     display: flex;
-    width: 100%;
     justify-content: space-between;
     gap: 20px;
     flex-wrap: wrap;
 }
-.project-box{
+
+.project-box {
     position: relative;
     display: flex;
     justify-content: center;
@@ -371,15 +339,13 @@ h3{
     box-shadow: 1px 8px 10px 2px var(--first-shadow-color);
     overflow: hidden;
 }
-.project-box>i{
-    font-size: 50px;
-    color: #00B5E7;
-    margin-bottom: 25px;
+
+.project-box h3,
+.project-box label,
+.project-box a {
+    text-align: center;
 }
-.project-box label{
-    font-size: 15px;
-    color: #777;
-}
+
 
 
 /* ----- CONTACT BOX ----- */
