@@ -67,6 +67,19 @@ html{
     color: var(--color-white);
 }
 
+/* ----- GLOBAL ICONS DESIGN ----- */
+i{
+    font-size: 16px;
+}
+
+/* ------- BASE -------- */
+body{
+    background: var(--body-color);
+}
+.container{
+    width: 100%;
+    position: relative;
+}
 
 /* ----- NAVIGATION BAR ----- */
 nav{
@@ -231,6 +244,7 @@ nav{
     height: 380px;
     object-fit: cover;
 }
+
 
 .scroll-btn{
    position: absolute;
